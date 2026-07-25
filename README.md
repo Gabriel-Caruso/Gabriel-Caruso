@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="header.png" alt="SYSOP header" width="900">
+  <img src="header1.png" alt="SYSOP header" width="900">
 </div>
 
 <!-- Blinking Cursor Typing SVG -->
