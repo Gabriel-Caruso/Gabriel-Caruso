@@ -118,15 +118,3 @@ databricks       [###-----] loading...
 </div>
 
 ---
-
-<div align="center">
-
-### Daily BBS Joke
-
-<br>
-
-<img src="https://readme-jokes.vercel.app/api?bg_color=000000&qColor=ffb000&aColor=ffb000&hideBorder" alt="Terminal Joke" />
-
-</div>
-
-<br>
