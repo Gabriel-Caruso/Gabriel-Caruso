@@ -1,12 +1,6 @@
-```text
-+------------------------------------------------------------+
-|                      ··· <O> ···                           |
-|  SYSOP:   Ramiro "Gabriel" Caruso                          |
-|  CLASS:   Junior Data Scientist · Data Analyst             |
-|  STATUS:  AVAILABLE FOR HIRE                               |
-|  NODE:    Oviedo, ES · remote-friendly                     |
-+------------------------------------------------------------+
-```
+<div align="center">
+  <img src="header.png" alt="SYSOP header" width="900">
+</div>
 
 <!-- Blinking Cursor Typing SVG -->
 <div align="center">
