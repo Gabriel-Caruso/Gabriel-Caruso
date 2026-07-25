@@ -5,55 +5,98 @@
 <!-- Blinking Cursor Typing SVG -->
 <div align="center">
 
-[![Terminal](https://readme-typing-svg.demolab.com?font=Fira%20Code&weight=600&size=22&duration=3500&pause=1000&color=FFB000&center=true&vCenter=true&multiline=false&repeat=true&width=1000&height=50&lines=AVAILABLE%20FOR%20HIRE%3BJUNIOR%20DATA%20SCIENTIST%20%2F%2F%20DATA%20ANALYST%3BPYTHON%20%C2%B7%20PANDAS%20%C2%B7%20SQL%20%C2%B7%20AZURE%3BTURNING%20DATA%20INTO%20DECISIONS%3BALSO%3A%20SCI-FI%20WRITER%20%C2%B7%202D%20ARTIST%20%C2%B7%20GAME%20DEV)](https://git.io/typing-svg)
+[![Terminal](https://readme-typing-svg.demolab.com?font=Fira%20Code&weight=600&size=22&pause=1000&color=FFB000&center=true&vCenter=true&multiline=false&repeat=false&width=1000&height=50&lines=AVAILABLE%20FOR%20HIRE%20%C2%B7%20JUNIOR%20DATA%20SCIENTIST%20%2F%2F%20DATA%20ANALYST)](https://git.io/typing-svg)
+
+</div>
+
+---
+
+<div align="center">
+  
+##  ▓▒░ PROFILE ░▒▓
+
+</div>
+
+<div>
+
+```text
+                              ┌──────────────────┬──────────────────────────────────────────────────────┐
+                              │ PROPERTY         │ VALUE                                                │
+                              ├──────────────────┼──────────────────────────────────────────────────────┤
+                              │ NAME             │ Ramiro "Gabriel" Caruso                              │
+                              │ CLASS            │ Junior Data Scientist · Data Analyst                 │
+                              │ STATUS           │ Available for hire _                                 │
+                              │ NODE             │ Oviedo, Asturias (ES) · remote-friendly              │
+                              │ EXP              │ 9y customer service → self-taught → DS & AI Bootcamp │
+                              │ CORE MODULES     │ Python · Pandas · SQL · scikit-learn · Databricks    │
+                              │ LOADING...       │ Azure Databricks                                     │
+                              │ BACKGROUND PROC  │ Writer · 2D artist · Twitch Content Creator          │
+                              │ CURRENT BUILD    │ Modelo ML precios vivienda (Madrid)                  │
+                              └──────────────────┴──────────────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+<div align="center">
+
+##  ▓▒░ ABOUT ME ░▒▓
 
 </div>
 
 ```text
-▓▒░ SYSOP PROFILE ░▒▓
-┌──────────────────┬────────────────────────────────────────────────────┐
-│ PROPERTY         │ VALUE                                              │
-├──────────────────┼────────────────────────────────────────────────────┤
-│ SYSOP            │ Ramiro "Gabriel" Caruso                            │
-│ CLASS            │ Junior Data Scientist · Data Analyst               │
-│ STATUS           │ Available for hire _                               │
-│ NODE             │ Oviedo, Asturias (ES) · remote-friendly            │
-│ BOOT LOG         │ 9y atención cliente → autodidacta → bootcamp DS&AI │
-│ CORE MODULES     │ Python · Pandas · SQL · scikit-learn · Azure       │
-│ LOADING...       │ Azure Databricks                                   │
-│ BACKGROUND PROC  │ Escritor sci-fi · artista 2D                       │
-│ CURRENT BUILD    │ Modelo ML precios vivienda (Madrid)                │
-└──────────────────┴────────────────────────────────────────────────────┘
+*This section is a work in progress*
 ```
 
 ---
 
-## Systems & Technologies
+<div align="center">
+
+##  ▓▒░ FEATURED PROJECTS ░▒▓
+
+</div>
+
+```text
+*This section is a work in progress*
+```
+
+---
+
+
+<div align="center">
+  
+## ▓▒░ SYSTEMS & TECHNOLOGIES ░▒▓
 
 **LANGUAGES**  
-![Python](https://img.shields.io/badge/Python-ffb000?style=flat-square&labelColor=000000&logo=python&logoColor=000000) ![SQL](https://img.shields.io/badge/SQL-ffb000?style=flat-square&labelColor=000000) ![Java](https://img.shields.io/badge/Java-ffb000?style=flat-square&labelColor=000000&logo=java&logoColor=000000) ![JavaScript](https://img.shields.io/badge/JavaScript-ffb000?style=flat-square&labelColor=000000&logo=javascript&logoColor=000000)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 **DATA / ML**  
-![Pandas](https://img.shields.io/badge/Pandas-ffb000?style=flat-square&labelColor=000000&logo=pandas&logoColor=000000) ![NumPy](https://img.shields.io/badge/NumPy-ffb000?style=flat-square&labelColor=000000&logo=numpy&logoColor=000000) ![scikit--learn](https://img.shields.io/badge/scikit----learn-ffb000?style=flat-square&labelColor=000000&logo=scikitlearn&logoColor=000000) ![Matplotlib](https://img.shields.io/badge/Matplotlib-ffb000?style=flat-square&labelColor=000000&logo=plotly&logoColor=000000)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
 
 **CLOUD / DATA**  
-![Azure](https://img.shields.io/badge/Azure-ffb000?style=flat-square&labelColor=000000&logo=microsoftazure&logoColor=000000) ![Databricks](https://img.shields.io/badge/Databricks-ffb000?style=flat-square&labelColor=000000&logo=databricks&logoColor=000000) ![SQLite](https://img.shields.io/badge/SQLite-ffb000?style=flat-square&labelColor=000000&logo=sqlite&logoColor=000000)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 **TOOLS**  
-![Git](https://img.shields.io/badge/Git-ffb000?style=flat-square&labelColor=000000&logo=git&logoColor=000000) ![GitHub](https://img.shields.io/badge/GitHub-ffb000?style=flat-square&labelColor=000000&logo=github&logoColor=000000) ![VS_Code](https://img.shields.io/badge/VS_Code-ffb000?style=flat-square&labelColor=000000&logo=visualstudiocode&logoColor=000000) ![Jupyter](https://img.shields.io/badge/Jupyter-ffb000?style=flat-square&labelColor=000000&logo=jupyter&logoColor=000000)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+</div>
 
 ---
 
 ```text
-sysop@caruso:~$ pip list --core
-PACKAGE          PROFICIENCY
-python           [#######-] solid
-pandas · numpy   [#######-] solid
-scikit-learn     [#######-] solid
-sql              [#######-] solid
-git · github     [######--] daily driver
-azure            [#####---] in use
-databricks       [###-----] loading...
+                                        ╔═══════════════════════════════════════════════════╗
+                                        ║ sysop@gabriel.caruso: pip list --core             ║
+                                        ╠══════════════════╦════════════════════════════════╣
+                                        ║ PACKAGE          ║ PROFICIENCY                    ║
+                                        ╠══════════════════╬════════════════════════════════╣
+                                        ║ python           ║ ███████░  solid                ║
+                                        ║ pandas · numpy   ║ ███████░  solid                ║
+                                        ║ scikit-learn     ║ ███████░  solid                ║
+                                        ║ sql              ║ ███████░  solid                ║
+                                        ║ git · github     ║ ██████░░  daily driver         ║
+                                        ║ azure            ║ █████░░░  in use               ║
+                                        ║ databricks       ║ ███░░░░░  loading...           ║
+                                        ╚══════════════════╩════════════════════════════════╝
 ```
 
 ---
@@ -78,7 +121,11 @@ databricks       [###-----] loading...
 
 ---
 
-## Projects Maintained
+<div align="center">
+  
+## ▓▒░ PROJECTS MAINTAINED ░▒▓
+
+</div>
 
 <div align="center">
 
