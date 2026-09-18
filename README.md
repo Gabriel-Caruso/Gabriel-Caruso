@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="header3.png" alt="SYSOP header" width="900">
+  <img src="header.png" alt="Header" width="900">
 </div>
 
 <!-- Blinking Cursor Typing SVG -->
@@ -13,34 +13,22 @@
 
 <div align="center">
   
-##  ▓▒░ PROFILE ░▒▓
+<img src="Profile_button.png" alt="Header" width="900">
 
 </div>
 
 <div>
 
-```text
-                              ┌──────────────────┬──────────────────────────────────────────────────────┐
-                              │ PROPERTY         │ VALUE                                                │
-                              ├──────────────────┼──────────────────────────────────────────────────────┤
-                              │ NAME             │ Ramiro "Gabriel" Caruso                              │
-                              │ CLASS            │ Junior Data Scientist · Data Analyst                 │
-                              │ STATUS           │ Available for hire _                                 │
-                              │ NODE             │ Oviedo, Asturias (ES) · remote-friendly              │
-                              │ EXP              │ 9y customer service → self-taught → DS & AI Bootcamp │
-                              │ CORE MODULES     │ Python · Pandas · SQL · scikit-learn · Databricks    │
-                              │ LOADING...       │ Azure Databricks                                     │
-                              │ BACKGROUND PROC  │ Writer · 2D artist · Twitch Content Creator          │
-                              │ CURRENT BUILD    │ Modelo ML precios vivienda (Madrid)                  │
-                              └──────────────────┴──────────────────────────────────────────────────────┘
-```
+<div align="center">
+  <img src="info1.png" alt="Gabriel-Caruso info" width="900">
+</div>
 
 </div>
 
 ---
 <div align="center">
 
-##  ▓▒░ ABOUT ME ░▒▓
+<img src="AboutMe_button.png" alt="Header" width="900">
 
 </div>
 
@@ -52,7 +40,7 @@
 
 <div align="center">
 
-##  ▓▒░ FEATURED PROJECTS ░▒▓
+<img src="FeaturedProjects_button.png" alt="Header" width="900">
 
 </div>
 
