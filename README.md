@@ -26,6 +26,34 @@
 </div>
 
 ---
+
+<div align="center">
+
+<img src="FeaturedProjects_button.png" alt="Header" width="900">
+
+</div>
+
+### Tasador de vivienda en Madrid
+**ML end-to-end: de anuncios scrapeados en bruto a una API REST pública**
+
+> **R² 0,86 · ~16 % de error medio en el 80 % del mercado · −49 % de error frente al baseline**
+
+Predice el precio de venta de una vivienda en Madrid a partir de los datos de su anuncio (11,8k anuncios de Idealista).
+
+- **Limpieza de datos:** valores centinela, NaNs estructurales frente a faltantes reales, duplicados ocultos eliminados con una clave de 9 campos y más de 50 variables extraídas de las etiquetas de texto libre.
+- **Modelado:** Baseline lineal frente a XGBoost, LightGBM y CatBoost, con split estratificado por distrito y ajuste con Optuna. Ganador: CatBoost.
+- **Hallazgo clave:** la ingeniería de variables (barrio + etiquetas) redujo el error 10 veces más que el ajuste de hiperparámetros.
+- **Despliegue:** FastAPI en Render, con validación de entradas, GET/POST `/predict` y documentación interactiva con Swagger.
+
+[![API en vivo](https://img.shields.io/badge/API_EN_VIVO-Pru%C3%A9bala-ffb000?style=flat-square&labelColor=000000)](https://tch-5-despliegue.onrender.com/docs)
+[![Repo modelo](https://img.shields.io/badge/REPO-ML--idealista-ffb000?style=flat-square&logo=github&logoColor=ffb000&labelColor=000000)](https://github.com/Gabriel-Caruso/ML-idealista)
+[![Repo API](https://img.shields.io/badge/REPO-API-ffb000?style=flat-square&logo=fastapi&logoColor=ffb000&labelColor=000000)](https://github.com/A-Manz/TCH-5-Despliegue/tree/develop)
+
+`Python · CatBoost · Optuna · scikit-learn · FastAPI · Render`
+<sub>Proyecto en equipo con Ana Manzanares. Me encargué de la limpieza de datos, el modelado y la optimización. La primera petición puede tardar ~1 min porque el servidor gratuito arranca en frío.</sub>
+
+
+---
 <div align="center">
 
 <img src="AboutMe_button.png" alt="Header" width="900">
@@ -36,17 +64,6 @@
 *This section is a work in progress*
 ```
 
----
-
-<div align="center">
-
-<img src="FeaturedProjects_button.png" alt="Header" width="900">
-
-</div>
-
-```text
-*This section is a work in progress*
-```
 
 ---
 
