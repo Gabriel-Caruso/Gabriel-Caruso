@@ -12,8 +12,8 @@
 ---
 
 <div align="center">
-  
-<img src="Profile_button.png" alt="Header" width="900">
+
+<img src="AboutMe_button.png" alt="Header" width="900">
 
 </div>
 
@@ -51,18 +51,6 @@ Predice el precio de venta de una vivienda en Madrid a partir de los datos de su
 
 `Python · CatBoost · Optuna · scikit-learn · FastAPI · Render`
 <sub>Proyecto en equipo con Ana Manzanares. Me encargué de la limpieza de datos, el modelado y la optimización. La primera petición puede tardar ~1 min porque el servidor gratuito arranca en frío.</sub>
-
-
----
-<div align="center">
-
-<img src="AboutMe_button.png" alt="Header" width="900">
-
-</div>
-
-```text
-*This section is a work in progress*
-```
 
 
 ---
