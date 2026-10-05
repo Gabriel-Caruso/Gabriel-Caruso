@@ -19,7 +19,7 @@
 ### Tasador de vivienda en Madrid
 **ML end-to-end: de anuncios scrapeados en bruto a una API REST pública**
 
-[![Tasador](tasador.png)]([https://miproyecto.com](https://ml-vivienda-madrid.onrender.com/))
+[![Tasador](tasador.png)](https://ml-vivienda-madrid.onrender.com/)
 
 > **R² 0,86 · ~16 % de error medio en el 80 % del mercado · −49 % de error frente al baseline**
 
