@@ -12,9 +12,57 @@
 
 <div align="center">
 
-<img src="FeaturedProjects_button.png" alt="Header" width="900">
+<img src="AboutMe_button.png" alt="About me" width="900">
 
 </div>
+
+<div align="center">
+  <img src="about_me.jpg" alt="Ramiro Gabriel Caruso: Junior Data Scientist y Data Analyst en Oviedo, disponible para trabajar en remoto" width="900">
+</div>
+
+---
+
+<div align="center">
+
+<img src="FeaturedProjects_button.png" alt="Featured projects" width="900">
+
+</div>
+
+### Telco churn: predicción de bajas de clientes
+**ML end-to-end en Databricks: de un CSV en bruto a una app pública que dice a quién llamar primero**
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://telco-churn-ramiro-caruso.streamlit.app/"><img src="churn_app.png" alt="App de Telco churn en Streamlit"></a></td>
+    <td width="50%"><a href="https://telco-churn-ramiro-caruso.streamlit.app/"><img src="churn_eda.png" alt="Tasa de baja en fibra según servicios extra contratados"></a></td>
+  </tr>
+</table>
+
+> **PR-AUC 0,635 (un modelo al azar: 0,265) · lista mensual de 806 clientes en riesgo · 37 tests**
+
+**El problema:** una operadora pierde al 26,5 % de sus clientes. El equipo de retención no puede llamar a todos, así que necesita saber a quién contactar primero. El modelo, entrenado con 7043 clientes del dataset IBM Telco, ordena a los clientes actuales por probabilidad de baja.
+
+```text
+CSV ─► bronze ─► silver ─► gold ─► MLflow (CV 5 folds) ─► Unity Catalog [champion]
+                                                              ├─► batch scoring
+                                                              ├─► endpoint REST
+                                                              └─► app Streamlit
+```
+
+- **Desarrollado en Databricks:** capas bronze, silver y gold en tablas Delta de Unity Catalog, con validación en cada capa y features en un paquete propio con tests (la misma función entrena, puntúa y alimenta la app).
+- **Modelado:** regresión logística frente a random forest, gradient boosting y XGBoost ajustados, comparados en MLflow. Los challengers solo ganan ~0,02 de PR-AUC, dentro del ruido entre folds, así que se mantiene la logística porque es explicable.
+- **Decisión de negocio:** PR-AUC por el desbalanceo y un umbral de 0,40 elegido por el coste de cada baja detectada.
+- **Hallazgos clave:** el 62 % de las bajas llegan en el primer mes, y la fibra contratada sola es el problema (60 % de bajas sin servicios extra frente al 9 % con los seis).
+- **Producción:** modelo registrado con el alias `champion`, batch scoring a tabla, endpoint REST con Model Serving y app bilingüe con explicación de cada predicción.
+
+[![App en vivo](https://img.shields.io/badge/APP_EN_VIVO-Pru%C3%A9bala-ffb000?style=flat-square&labelColor=000000)](https://telco-churn-ramiro-caruso.streamlit.app/)  
+[![Repo](https://img.shields.io/badge/REPO-telco--churn--prediction-ffb000?style=flat-square&logo=github&logoColor=ffb000&labelColor=000000)](https://github.com/Gabriel-Caruso/telco-churn-prediction)  
+
+`Python · Databricks · MLflow · Unity Catalog · Delta Lake · scikit-learn · Streamlit · pytest`  
+
+<sub>Si la app lleva tiempo sin visitas, Streamlit la duerme: pulsa el botón para despertarla y espera unos segundos.</sub>
+
+---
 
 ### Tasador de vivienda en Madrid
 **ML end-to-end: de anuncios scrapeados en bruto a una API REST pública**
@@ -41,24 +89,6 @@ Predice el precio de venta de una vivienda en Madrid a partir de los datos de su
 
 ---
 
----
-
-<div align="center">
-
-<img src="AboutMe_button.png" alt="Header" width="900">
-
-</div>
-
-<div>
-
-<div align="center">
-  <img src="info1.png" alt="Gabriel-Caruso info" width="900">
-</div>
-
-</div>
-
----
-
 
 <div align="center">
   
@@ -68,7 +98,10 @@ Predice el precio de venta de una vivienda en Madrid a partir de los datos de su
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 **DATA / ML**  
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge) ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+
+**DEPLOY**  
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 
 **CLOUD / DATA**  
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
@@ -80,26 +113,18 @@ Predice el precio de venta de una vivienda en Madrid a partir de los datos de su
 
 ---
 
-```text
-                                        ╔═══════════════════════════════════════════════════╗
-                                        ║ sysop@gabriel.caruso: pip list --core             ║
-                                        ╠══════════════════╦════════════════════════════════╣
-                                        ║ PACKAGE          ║ PROFICIENCY                    ║
-                                        ╠══════════════════╬════════════════════════════════╣
-                                        ║ python           ║ ███████░  solid                ║
-                                        ║ pandas · numpy   ║ ███████░  solid                ║
-                                        ║ scikit-learn     ║ ███████░  solid                ║
-                                        ║ sql              ║ ███████░  solid                ║
-                                        ║ git · github     ║ ██████░░  daily driver         ║
-                                        ║ azure            ║ █████░░░  in use               ║
-                                        ║ databricks       ║ ███░░░░░  loading...           ║
-                                        ╚══════════════════╩════════════════════════════════╝
-```
+<div align="center">
+  <img src="skills.jpg" alt="Competencias: Python, pandas, NumPy, scikit-learn y SQL sólidos; Git a diario; Azure en uso; Databricks aprendiendo" width="900">
+</div>
 
 ---
 
 
-## System Diagnostics & Streaks
+<div align="center">
+
+## ▓▒░ SYSTEM DIAGNOSTICS ░▒▓
+
+</div>
 
 <div align="center">
 
@@ -129,23 +154,27 @@ Predice el precio de venta de una vivienda en Madrid a partir de los datos de su
 <table cellspacing="10" cellpadding="0" border="0">
   <tr>
     <td>
-      <a href="https://github.com/gabriel-caruso/ML-idealista">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=gabriel-caruso&repo=ML-idealista&bg_color=000000&text_color=ffb000&icon_color=ffb000&title_color=ffb000&hide_border=true&description_lines_count=1" alt="ReadMe Card" width="400" height="120" />
+      <a href="https://github.com/gabriel-caruso/telco-churn-prediction">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=gabriel-caruso&repo=telco-churn-prediction&bg_color=000000&text_color=ffb000&icon_color=ffb000&title_color=ffb000&hide_border=true&description_lines_count=1" alt="ReadMe Card" width="400" height="120" />
       </a>
     </td>
     <td>
-      <a href="https://github.com/gabriel-caruso/DS-Online-Ramiro-Caruso">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=gabriel-caruso&repo=DS-Online-Ramiro-Caruso&bg_color=000000&text_color=ffb000&icon_color=ffb000&title_color=ffb000&hide_border=true&description_lines_count=1" alt="ReadMe Card" width="400" height="120" />
+      <a href="https://github.com/gabriel-caruso/ML-idealista">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=gabriel-caruso&repo=ML-idealista&bg_color=000000&text_color=ffb000&icon_color=ffb000&title_color=ffb000&hide_border=true&description_lines_count=1" alt="ReadMe Card" width="400" height="120" />
       </a>
     </td>
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/gabriel-caruso/DS-Online-Ramiro-Caruso">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=gabriel-caruso&repo=DS-Online-Ramiro-Caruso&bg_color=000000&text_color=ffb000&icon_color=ffb000&title_color=ffb000&hide_border=true&description_lines_count=1" alt="ReadMe Card" width="400" height="120" />
+      </a>
+    </td>
+    <td>
       <a href="https://github.com/gabriel-caruso/Hundir-la-flota">
         <img src="https://github-stats-extended.vercel.app/api/pin/?username=gabriel-caruso&repo=Hundir-la-flota&bg_color=000000&text_color=ffb000&icon_color=ffb000&title_color=ffb000&hide_border=true&description_lines_count=1" alt="ReadMe Card" width="400" height="120" />
       </a>
     </td>
-    <td></td>
   </tr>
 </table>
 
@@ -153,11 +182,11 @@ Predice el precio de venta de una vivienda en Madrid a partir de los datos de su
 
 ---
 
-## Establish Contact
-
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-ffb000?style=flat-square&logo=github&logoColor=000000&labelColor=000000)](https://github.com/gabriel-caruso) [![LinkedIn](https://img.shields.io/badge/LinkedIn-ffb000?style=flat-square&logo=linkedin&logoColor=000000&labelColor=000000)](https://linkedin.com/in/www.linkedin.com/in/ramiro-caruso-964899125) [![Twitter](https://img.shields.io/badge/Twitter-ffb000?style=flat-square&logo=twitter&logoColor=000000&labelColor=000000)](https://x.com/Gabrien_)
+## ▓▒░ ESTABLISH CONTACT ░▒▓
+
+[![GitHub](https://img.shields.io/badge/GitHub-ffb000?style=flat-square&logo=github&logoColor=000000&labelColor=000000)](https://github.com/gabriel-caruso) [![LinkedIn](https://img.shields.io/badge/LinkedIn-ffb000?style=flat-square&logo=linkedin&logoColor=000000&labelColor=000000)](https://www.linkedin.com/in/ramiro-caruso-964899125) [![Twitter](https://img.shields.io/badge/Twitter-ffb000?style=flat-square&logo=twitter&logoColor=000000&labelColor=000000)](https://x.com/Gabrien_)
 
 </div>
 
